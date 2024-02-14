@@ -22,6 +22,15 @@ int main() {
     // It proves that a float datatype takes 4 bits, a long double takes 12 bits and default (double) takes 8 bits. Hence, you can use your preferred datatype and manage the space of memory used by the program, enabling in fast conditions. 
     // Also the output may be different in different machines as the size of register varies.
 
-    // This topic completes here and in the next chapter, we are going to look at reference variables in C++! See you next time.
+    // Now, we will learn the actual typecasting like how to convert an integer to a float.
+    int z = 67;
+    cout << (float)z << endl;       // We use '(datatype) variable' to convert to another datatype
 
+    float y = 5.34;
+    cout << (int)y << endl;     // prints only the integer part, i.e. 5.
+
+    // You can also write it as - int(y). It will be same as the first.
+
+    // This topic completes here and in the next chapter, we are going to look at reference variables in C++! See you next time.
+    // Also, you can now start solving Exercise 1! All the best.
 }
