@@ -22,5 +22,4 @@ int main() {
 
     // Now you may have understood what it meant! By default, when you use setw, everything is right aligned.
     // We will study about more of these in the later chapters! Happy coding.
-
 }
