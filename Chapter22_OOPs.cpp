@@ -41,5 +41,5 @@ int main() {
     Dog.fun();      // As you can see, we got our variables.
     
     // But if you try to set the private variables then it will throw an error.
-
+    // Also by default, the variables or functions that you create without using the 'public' or 'public' then it's private.
 }
