@@ -22,7 +22,7 @@ using namespace std;
 
 int main() {
     int arr[] = {100, 3, 23, 543, 1232, 24};
-    int i = 0, j = 0;
+    int i = 0;
 
     // USING WHILE LOOP
     while (i<6) {
@@ -32,6 +32,7 @@ int main() {
     cout << endl;
 
     // USING DO-WHILE LOOP
+    int j = 0;
     do {
         cout << "Element " << j << " : " << arr[j] << endl;
         j++;
