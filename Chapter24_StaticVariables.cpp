@@ -1,5 +1,5 @@
 // Hello and welcome to another tutorial! In this chapter, we are going to study about what and how static variables are used.
-// They often come in handy when you want to make variable which doesn't forget it's count!
+// They often come in handy when you want to make variable which doesn't forget it's value!
 // So, static variables are those variables whose value gets preserved in the memory.
 // Let's learn through an example. Suppose that you want to count about how many times a function has ran inside the program. You can either count it through stating a variable outside the function but you can use the keyword 'static' for a count variable inside the function.
 
@@ -8,6 +8,7 @@ using namespace std;
 
 // Ignore this class for sometime and skip to the line 24
 class Car {
+    // You have to specify the static variable here and on line 22 too.
     static int newnum;
     public:
         void getValue(void) {
@@ -16,6 +17,7 @@ class Car {
         }
 };
 
+// Ignore this too, for now
 // We specify static variable value like this.
 int Car :: newnum;      // Default value is 0.
 // Now, move to the main function and continue where we left off.

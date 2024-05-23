@@ -91,7 +91,7 @@ int main() {
     obj.show();             // Will throw error
 
     Sports2 obj2;
-    obj2.show()             // Will not throw an error.
+    obj2.show();             // Will not throw an error.
 
     // And hence, just by using 'virtual', we solved the ambiguity problem
 }
