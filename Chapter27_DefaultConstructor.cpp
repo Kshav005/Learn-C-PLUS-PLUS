@@ -42,7 +42,7 @@ int main() {
     a1.disp();
 
     // You can see that it works perfectly!
-    // So, in this chapter we have covered that you can have 2 types of constructors and how we can use constructor overloading. There are of-course more types but we might study them in the later chapters. OOPs is really lengthy concept so it will time consuming to learn and explain.
+    // So, in this chapter we have covered that you can have 2 types of constructors and how we can use constructor overloading. There are of-course more types but we might study them in the later chapters. OOPs is really lengthy concept so it will be time consuming to learn and explain.
     // In the next chapter, we will look at some more concepts related to Constructors. Till then, happy coding!
     // Also, now you can complete exercises till 13! Good luck.
 }

@@ -50,6 +50,7 @@ num4.Display();
 // 1. Constructor starts with the name of the class.
 // 2. It is called automatically once the object is created.
 // 3. Constructors do not return any values or cannot have a return type.
+// 4. Constructor overloading is possible!
 
 
 // In the next chapter, we will be studying default constructor and we will see how to create like this. This one, which we studied is called Parameterized constructor as it takes in arguments.

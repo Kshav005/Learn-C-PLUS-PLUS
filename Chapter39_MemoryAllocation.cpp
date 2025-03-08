@@ -11,7 +11,7 @@ int main() {
     // It may sound confusing but basically, this (below)
     int *a1 = &x;
 
-    // and this 
+    // and this, both are same!
     int *a2 = new int(5);
 
     // The only difference is that, in the first one, you must initialize the value with a variable while you can directly enter the value in the second one.

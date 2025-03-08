@@ -17,7 +17,7 @@ class Car {
         }
 };
 
-// Ignore this too, for now
+
 // We specify static variable value like this.
 int Car :: newnum;      // Default value is 0.
 // Now, move to the main function and continue where we left off.

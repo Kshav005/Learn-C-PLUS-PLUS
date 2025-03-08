@@ -36,7 +36,7 @@ int main() {
 Derived a;
 a.show();
 
-// We get to see that we get an error about 'show' function being ambiguous. What can we do to solve this problem? In order to solve the problem look at line 24.
+// We get to see that we get an error about 'show' function being ambiguous. What can we do to solve this problem? In order to solve the problem look at line 26.
 }
 
 // Hope you understood what ambiguity is about and how to solve it. OOPs is going to be finished in few more chapters!
